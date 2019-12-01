@@ -1,0 +1,348 @@
+ 
+body { background-repeat: no-repeat; background-size:cover; background-attachment: fixed;}
+
+
+h1 {color: black;
+	font-family: arial;
+font-size: 13px;
+margin-left: 30px;}
+
+
+h2 {font-style: bold; 
+	color: blue;
+	font-family: arial;
+	font-size: 45px;
+margin-top: 10px} 
+
+
+h3 {color: black; 
+	font-family: arial;
+	font-size: 12px;
+text-align: center;
+margin-top: -35px;}
+
+
+.signup {
+font-family: arial;
+margin-left: 815px;
+}
+
+.e {
+	font-family: arial;
+	margin-right: 60px;
+}
+
+.fandp {
+	font-family: arial;
+	margin-right: 60px;
+}
+
+.k {
+	font-family: arial;
+	margin-right: 60px;
+}
+
+.he {
+	font-family: arial;
+	margin-right: 60px;
+}
+
+.handt {
+	font-family: arial;
+	margin-right: 60px;
+}
+
+.seeall1 {
+	font-family: arial;
+	font-size: 10px;
+	margin-left: 20px;
+}
+
+.seeall2 {
+	font-family: arial;
+	font-size: 10px;
+	margin-left: 20px;
+}
+
+.h {
+	font-family: arial;
+	font-size: 14px;
+	margin-left: 70px;
+}
+
+.r {
+	font-family: arial;
+	font-size: 14px;
+	margin-left: 105px;
+}
+
+.r2 {
+	font-family: arial;
+	font-size: 14px;
+	margin-left: 90px;
+}
+
+.ea {
+	font-family: arial;
+	font-size: 14px;
+	margin-left: 95px;
+}
+
+
+.hr {
+	font-family: arial;
+	font-size: 14px;
+	margin-left: 87px;
+}
+
+.help {font-family: arial;
+	font-size: 14px;
+	margin-left: 100px;}
+
+.about {font-family: arial;
+	font-size: 14px;
+	margin-left: 90px;}
+
+.tools {font-family: arial;
+	font-size: 14px;
+	margin-left: 90px;}
+
+.questions {font-family: arial;
+	font-size: 14px;
+	margin-left: 90px;}
+
+.resolution {font-family: arial;
+	font-size: 14px;
+	color: grey;
+	margin-left: 100px;}
+
+.company {font-family: arial;
+	font-size: 14px;
+	color: grey;
+	margin-left: 71px;}
+
+.developers {font-family: arial;
+	font-size: 14px;
+	color: grey;
+	margin-left: 94px;}
+
+.faq {font-family: arial;
+	font-size: 14px;
+	color: grey;
+	margin-left: 113px;}
+
+
+.security {font-family: arial;
+	font-size: 14px;
+	color: grey;
+	margin-left: 100px;}
+
+.news {font-family: arial;
+	font-size: 14px;
+	color: grey;
+	margin-left: 87px;}
+
+.arngrenofficial {font-family: arial;
+	font-size: 14px;
+	color: grey;
+	margin-left: 99px;}
+
+.contactus {font-family: arial;
+	font-size: 14px;
+	color: grey;
+	margin-left: 100px;}
+
+.investors {font-family: arial;
+	font-size: 14px;
+	color: grey;
+	margin-left: 116px;}
+
+.seemap {font-family: arial;
+	font-size: 14px;
+	color: grey;
+	margin-left: 121px;}
+
+
+#searchbox {
+	margin-top: -745px;
+	margin-left: 840px;
+	}
+
+
+
+
+
+#blackfriday{
+	font-style: bold; 
+	color: red;
+	font-family: arial;
+	font-size: 30px;
+margin-top: 70px;
+text-align: center;}
+
+#blackfridaysale{
+font-family: arial;
+	font-size: 20px;
+	margin-top: 15px;
+text-align: center;
+color: red;}
+
+#cat1{
+font-family: arial;
+	font-size: 20px;
+	font-style: bold;
+	text-align: left;
+	margin-top: 140px;
+	margin-left: 23px;}
+
+#cat2{
+font-family: arial;
+	font-size: 20px;
+	margin-top: 140px;
+	margin-left: 23px;
+}
+
+ #house {
+ 	margin-top: -23px;
+ 	margin-left: 87px;
+ }
+
+ #flag {
+
+ 	margin-top: -562px;
+ }
+
+ #bell {
+ 	margin-top: -22px;
+ 	margin-left: 1070px;
+ }
+
+#cart {
+	margin-top: -27px;
+ 	margin-left: 1115px;
+}
+
+#rec1 {
+margin-left: -2px;
+margin-top: 95px;
+}
+
+#rec2 {
+margin-left: -2px;
+margin-top: -137px;
+}
+
+#rec3 {
+margin-left: -2px;
+margin-top: 305px;
+}
+
+#logo {
+	margin-top: -357px;
+	margin-left: 347px;
+}
+
+#hoverpod{
+	margin-top: 340px;
+	margin-left: 30px;
+
+}
+
+#roboraptor{
+	margin-top: -104px;
+	margin-left: 210px;
+}
+
+#r2d2{
+	margin-top: -104px;
+	margin-left: 390px;
+}
+
+#aquarium{
+	margin-top: -104px;
+	margin-left: 570px;
+}
+
+#horserace{
+	margin-top: -104px;
+	margin-left: 750px;
+}
+
+#mobile{
+	margin-top: 22px;
+	margin-left: 40px;
+}
+
+#smart{
+	margin-top: -85px;
+	margin-left: 210px;
+}
+
+#gsm{
+	margin-top: -110px;
+	margin-left: 390px;
+}
+
+#glasses{
+	margin-top: -110px;
+	margin-left: 570px;
+}
+
+#game{
+	margin-top: -105px;
+	margin-left: 750px;
+}
+
+#shopnow{
+	margin-top: -400px;
+	margin-left: 500px;
+}
+
+#blackline1 {
+margin-left: -2px;
+margin-top: -238px;
+}
+
+#blackline2 {
+margin-left: -2px;
+margin-top: -2px;
+}
+
+#blackline3 {
+margin-left: -2px;
+margin-top: 560px;
+}
+
+#footer1 {
+	margin-top: 10px;
+}
+
+#footer2 {
+	margin-top: 10px;
+}
+
+#footer3 {
+	margin-top: 10px;
+}
+
+#facebook {
+
+	margin-top: -27px;
+	margin-left: 990px;
+}
+
+#twitter {
+
+	margin-top: -32px;
+	margin-left: 1030px;
+}
+
+#insta {
+
+	margin-top: -32px;
+	margin-left: 1070px;
+}
+
+
+
+

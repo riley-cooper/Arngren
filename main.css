@@ -1,0 +1,124 @@
+
+body{
+    font-family: 'Arial', Times, serif;
+}
+.header {
+  margin-bottom: 20px;
+}
+
+.banner img {
+  width: 1250px;
+}
+.header ul {
+  list-style-type: none;
+  padding:0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header li {
+  float: left;
+}
+
+.header li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover,
+.dropdown:hover {
+  background-color: rgb(139, 140, 145);
+}
+
+.header .arr {
+  margin-left: 20px;
+  
+}
+
+.container {
+  float: left;
+}
+
+.first .items {
+  font-family: "Arial", Times, serif;
+  font-size: medium;
+}
+
+.first .items p {
+  padding: 0;
+  margin: 10;
+}
+
+.main-img {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.main-img img {
+  width: 660px;
+  height: 440px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+}
+
+.main-img img:hover {
+  
+}
+
+.other-imgs {
+  display: flex;
+  justify-content: center;
+}
+
+.other-imgs img {
+  width: 160px;
+  height: 140px;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.other-imgs img:hover{
+    transform: scale(1.1);
+}
+
+.third ul {
+  list-style-type: none;
+  
+  
+}
+
+.third li {
+  text-decoration: none;
+  justify-content: right;
+  width: 10cm;
+}
+
+.price {
+  font-weight: 750;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.stock {
+  color: rgb(20, 104, 20);
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.fourth button {
+  background: rgb(71, 71, 218);
+  color: white;
+  font-weight: bold; 
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Arngren Login</title>
+<link rel="stylesheet" type="text/css" href="ArngrenLoginPage.css"> 
+</head>
+
+<body>
+
+<div class="icons">
+	<div id="flag">
+	<img src="flag.png" width="20" height="12">
+	</div>
+
+	<div id="home">
+	<img src="home.png" width="20" height="20">
+	</div>
+
+	<div id="bell">
+	<img src="bell.png" width="20" height="20">
+	</div>
+
+	<div id="cart">
+	<img src="cart.png" width="25" height="25">
+	</div>
+
+</div>
+
+<hr>
+
+<h1> ARNGREN.NET <img id="head" src="head.jpg">  </h1>
+
+
+<h2> <font size="-0.5"> <a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html">Electronics</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html">Film and Photography</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html">Kitchen</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html">Hobbies and Toys</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html">Home Entertainment</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html">Outdoors</a></font> </h2>
+
+
+<div class="container">
+
+<div id="LoginHeader" class="header">
+ <h3>Login To Arngren</h3>
+ </div>
+
+ <form id="Dots" name="login" onsubmit="return validateForm() ;" method="post">
+
+ <ul id="Options">
+ <li>Username: <input class="username" type="text" name="username">
+ </li>
+
+ <li>Password: <input class="password" type="password" name="password">
+ </li>
+ </ul>
+
+<input id="butt" type="button" class="submit" value="Log In" name="submit" onclick="validate()">
+</form>
+</div>
+
+<hr id="bottomline">
+
+<div class="row">
+
+	<div class="col">
+	<ul>
+		<li> 
+			<a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html">Help & Contact</a> 
+		</li> 
+		<li> 
+			<a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html"> About Arngren </a> 
+		</li> 
+		<li> 
+			<a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html"> Tools and Apps </a> 
+		</li>  
+		<li> 
+			<a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html"> Frequently Asked Questions </a> 
+		</li>
+	</ul>
+	</div>
+
+	<div class="col">
+	<ul>
+		<li> 
+			<a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html">Resolution Centre</a> 
+		</li> 
+		<li > 
+			<a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html"> Customer Info </a> 
+		</li> 
+		<li> <a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html"> Developers</a> 
+		</li>  
+	</ul>
+	</div>
+
+	<div class="col">
+	<ul>
+		<li>
+			<a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html">Security Centre</a>
+		</li>
+		<li>
+			<a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html">News Centre</a>
+		</li>
+		<li>
+			<a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html">Arngren Official Time</a>
+		</li>
+	</ul>
+	</div>
+
+	<div class="col">
+	<ul>
+		<li>
+			<a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html">Contact Us</a>
+		</li>
+		<li>
+			<a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html">Investors</a>
+		</li>
+		<li>
+			<a href="ffile:///Users/rileycooper/Desktop/Arngren/ArngrenLoginPage.html">See Map</a>
+		</li>
+	</ul>
+	</div>
+	
+</div>		
+
+<div id="facebook">
+<img src="facebook.png" width="30" height="30">
+</div>
+
+<div id="twitter">
+<img src="twitter.png" width="27" height="27">
+</div>
+
+<div id="insta">
+<img src="insta.png" width="27" height="27">
+</div>
+
+</div>
+
+<!-- Javascript starts now -->
+
+<script>
+var count= 2;
+function validate()
+{
+	var un = document.login.username.value;
+	var pw = document.login.password.value;
+	var valid = false;
+	var usernameArray = ["RileyC4", "SierraGilbert"];
+	var passwordArray = ["12345", "54321"];
+	for (var i = 0; i < usernameArray.length; i++)
+ {
+	if ((un == usernameArray[i]) && (pw == passwordArray[i]))
+	{
+		valid = true;
+		break;
+	}
+}
+	if (valid)
+	{
+		alert("Login Successful. User now has access to My Arngren");
+		if (un == "RileyC4"){ window.location = "SavedPage1.html"}
+			else if (un == "SierraGilbert"){ window.location = "SavedPage2.html"}
+		return false;
+	}
+	if (valid != true) 
+	var again = " tries";
+	if (count ==1)
+	{
+		again = " try"
+	}
+	if (count >= 1)
+	{
+		for (var i = 0; i < usernameArray.length; i++) 
+		{if (un == usernameArray[i])
+			{
+				alert("Incorrect Password")
+		}
+		 
+		 else if (pw == passwordArray[i])
+		{
+			alert("Incorrect Username")
+		}
+		}
+		count--;
+	}
+	else
+	{
+		alert("You have entered the incorrect username or password too many times. Please reload page and try again");
+		document.login.username.value = "User now blocked";
+		document.login.password.value = "User now blocked";
+		document.login.username.disabled = true;
+		document.login.password.disabled = true;
+		return false;
+	}
+}
+</script>
+
+</body>
+</html>

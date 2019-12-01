@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <title>Roboraptors</title>
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="banner">
+            <img src="./banner.jpg" alt="banner">
+        </div>
+        <ul>
+            <li><a href="#home">Electronics</a></li>
+            <li><a href="#news">Film and Photography</a></li>
+            <li><a href="#news">Kitchen</a></li>
+            <li><a href="#news">Entertainment</a></li>
+            <li><a href="#news">Hobbies and Toys</a></li>
+            <li><a href="#news">Outdoors</a></li>
+
+        </ul>
+        <hr>
+        <small class="arr">Arngren > Hobbies and Toys > Robots > Roboraptor</small>
+    </div>
+
+    <div class="main-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm first">
+                    <h3>Hobbies</h3>
+                    <div class="items">
+                        <p>Board Games</p> 
+                        <p>Bouncy Castles</p>
+                        <p>Figurines</p>
+                        <p>John Deere</p>
+                        <p>Remote Control</p>
+                    </div>
+                    <br>
+                    <h3>Robots</h3>
+                    <div class="items">
+                        <p>Star Wars</p>
+                        <p>Toy Cars</p>
+                        <p>Roboraptor</p>
+                    
+                    </div>
+                    <br>
+                    <h3>Filter</h3>
+                    <div class="items">
+                        <p>Age</p>
+                        <p>Color</p>
+                        <p>Price</p>
+                        <p>Rating</p>
+                    </div>
+
+                </div>
+                <div class="col-sm second">
+                    <div class="wrapper">
+                        <h1>Roboraptor</h1>
+                        <br />
+                        <div class="main-img">
+                            <img id="img1" src="img1.jpg" alt="img1">
+                        </div>
+
+                        <div class="other-imgs">
+                            <div onclick="changeImg2()" class="img2"><img id="img2" src="img1.jpg" alt="img2"></div>
+                            <div onclick="changeImg4()" class="img4"><img id="img4" src="img4.jpg" alt="img4"></div>
+                            <div onclick="changeImg3()" class="img3"><img id="img3" src="img3.jpg" alt="img3"></div>
+                            <div onclick="changeImg5()" class="img5"><img id="img5" src="img5.jpg" alt="img5"></div>
+                        </div>
+                        <h3>Similar Products</h3> 
+                        <div class="other-imgs">
+                            <div onclick="changeImg6()" class="img6"><img id="img6" src="img6.jpg" alt="img6"></div>
+                            <div onclick="myFunction3()" class="img7"><img id="img7" src="img7.jpg" alt="img7"></div>
+                            <div onclick="changeImg8()" class="img8"><img id="img8" src="img8.jpg" alt="img8"></div>
+                            <div onclick="myFunction2()" class="img9"><img id="img9" src="img9.jpg" alt="img9"></div>        
+                        </div>    
+                            
+                    </div>
+
+                </div>
+                <div class="col-sm third">
+                    <br><br><br>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis asperiores unde similique
+                        doloremque delectus, tenetur ut maxime,
+                        atque, soluta voluptate vitae aliquam amet et ratione modi quam illo! Nostrum, ex?
+                    </div>
+                    <br><br>
+                    <h3>More Info</h3>
+                    <div class="info">
+                        <div>- Wight: 800gm</div>
+                        <div>- Size: NOTavailable</div>
+                        <div>- Made from: plastic</div>
+                        <div>- Takes: 3 AAA Batterirs</div>
+                    </div>
+                </div>
+                <div class="col-sm fourth">
+                    <br /><br /><br />
+                    <div class="price">59.99 CAD</div>
+                    <div class="stock">In Stock</div>
+                    <button onclick="myFunction()">ADD TO CART</button>
+                
+                
+                </Scrip>    
+                                  
+                    
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            alert("Item added to the cart successfully!")
+            
+        }
+
+        function myFunction2() {
+            alert("This product is no longer available!")
+        }
+
+        function myFunction3() {
+            alert("Product cannot be found!")
+        }
+      
+
+        function changeImg2() {
+            let tmp = document.getElementById('img2').src;
+            document.getElementById('img1').src = tmp;
+        }
+        function changeImg3() {
+            let tmp = document.getElementById('img3').src;
+            document.getElementById('img1').src = tmp;
+        }
+        function changeImg4() {
+            let tmp = document.getElementById('img4').src;
+            document.getElementById('img1').src = tmp;
+        }
+        function changeImg5() {
+            let tmp = document.getElementById('img5').src;
+            document.getElementById('img1').src = tmp;
+        }
+        function changeImg6() {
+            let tmp = document.getElementById('img6').src;
+            document.getElementById('img1').src = tmp;
+        }
+        function changeImg8() {
+            let tmp = document.getElementById('img8').src;
+            document.getElementById('img1').src = tmp;
+        }
+
+
+
+    
+
+
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
